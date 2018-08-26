@@ -159,7 +159,7 @@ class TomeRater():
             if avg_rating > count:
                 count = avg_rating
                 title = book
-        print("'{}'".format(title))
+        return("'{}'".format(title))
 
     def most_positive_user(self):
         count = 0
@@ -168,7 +168,7 @@ class TomeRater():
             if avg_rating > count:
                 count = avg_rating
                 user = user
-        print("'{}'" .format(user.name))
+        return("'{}'" .format(user.name))
 
 
 
