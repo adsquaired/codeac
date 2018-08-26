@@ -139,7 +139,7 @@ class TomeRater():
 
     def print_catalog(self):
         for book in self.books.keys():
-            print(book)
+            print(book.title)
 
     def print_users(self):
         for user in self.users.values():
